@@ -1,0 +1,79 @@
+body {
+width: 100%;
+height: 100%;
+display: block;
+
+}
+
+h1 {
+ font-size: 200%; 
+ color: navy; 
+ text-align: center;
+ }
+
+.App {
+width: 100%;
+height: 100%;
+display: block;
+
+}
+
+#main {
+width: 100%;
+height: 100%;
+
+}
+
+/*------------ fenetre principale ----------------*/
+
+.fenetre {
+		display: block;
+		width: 100%;
+		height: 100%;
+		
+}
+
+.fullscreen {
+
+		width: 100% !important;
+
+}
+
+/*----------------- navigation -------------------*/
+
+.navigation {
+	background-color: coral;
+	text-align: center;
+    width: 100%;
+    height: 60px;
+    position: absolute;
+  	bottom: 0;
+    
+    
+}
+
+.flechegauche {
+	display: inline-block;
+	width: 5%;
+    
+}
+
+.texte {
+	display: inline-block;
+	width: 29%;
+	}
+
+.photo {
+	display: inline-block;
+	width: 29%;
+	}
+
+.audio {
+	display: inline-block;
+	width: 29%;
+	}
+
+.flechedroite {
+	display: inline-block;
+	width: 5%;
+    }
